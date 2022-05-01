@@ -13,7 +13,7 @@ use pocketmine\event\server\QueryRegenerateEvent;
 
 class Main extends PluginBase implements Listener{
     
-    public function onEnable(){
+    public function onEnable():void {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
     
